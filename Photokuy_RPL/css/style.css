@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: #0d0d0d;
+}
+
+nav {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a,
+button {
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
+nav a:hover,
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
+
+.login{
+  width: 360px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.login form {
+    font-size: 15px;
+}
+
+.user button{
+  height: 60px;
+  width: 318px;
+  margin-top: 20px;
+  font-size: 23px;
+}
+
+.Admin button{
+  height: 60px;
+  width: 318px;
+  margin-top: 25px;
+  font-size: 23px;
+}
