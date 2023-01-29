@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-image: url('img/indexbg2.jpg');">
+    <nav>
+      <a href="login2.html" class="logo">PHOTOKUY</a>
+      <a href="index.html">Home</a>
+      <button onclick="location.href='login.html'">Login</button>
+      <button onclick="location.href='registrasi.html'">Register</button>
+    </nav>
+      
+        <div class="container">
+        <div class="login">
+            <h1>ADMIN LOGIN</h1>
+            <form>
+            <div class="col-12">
+                <label for="Date">Date:</label><br>
+                <input type="date" id="date" name="date"><br>
+                <label for="location">location:</label><br>
+                <input type="text" id="location" name="location"><br>
+                <label for="message">Message:</label><br>
+                <input type="text" id="message" name="message"><br>
+                <label for="total">Total Harga:</label><br>
+                <input type="text" id="total" name="total" disabled><br>
+            </div>
+              <div class="col-md-4">
+                  <select id="inputState" class="form-select">
+                      <option selected>Payment...</option>
+                      <option>...</option>
+                  </select>
+              </div>
+              </div>
+                <button type="button" class="btn btn-primary" style="background-color: rgb(31, 30, 30);" onclick="location.href='buktipembayaran.html'">LOGIN</button>
+            </form>
+        </div>
+     </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
